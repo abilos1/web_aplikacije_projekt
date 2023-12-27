@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Football referee">
+    <meta name="keywords" content="football, referee, be a referee">
+    <meta name="author" content="Ante Biloš">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija</title>
+    <link rel="shortcut icon" href="zastava.jpg">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: rgb(42, 66, 111);
+            color: white;
+        }
+
+        header {
+            background-color: rgb(30, 92, 205);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+            font-family: 'Times New Roman', serif;
+        }
+
+        footer {
+            background-color: rgb(30, 92, 205);
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer img {
+            width: 30px;
+            border-radius: 50%;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lightbox img {
+            max-width: 80%;
+            max-height: 80%;
+            border-radius: 8px;
+        }
+
+        a.lightbox-trigger {
+            color: yellow; 
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        a.lightbox-trigger:hover {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Postani nogometni sudac</h1>
+    </header>
+    <nav>
+        <a href="index.html">Početna stranica</a>
+        <a href="novosti.html">Novosti</a>
+        <a href="postani.html">Postani sudac</a>
+        <a href="o_nama.html">O nama</a>
+        <a href="galerija.html">Galerija</a>
+    </nav>
+    <header>
+        <h2>Galerija</h2>
+    </header>
+    <main>
+        <h2>Novosti</h2>
+        <h3>Slike vezane za Novosti</h3>
+        <p>Božićni seminar sudaca:
+            Na Božićnom seminaru sudaca, održanom 27. prosinca 2023. godine u hotelu Zagreb u Splitu, okupili su se suci kako bi produbili svoje znanje i iskustvo u vođenju nogometnih utakmica. <br></br>
+            
+            Raspored delegiranja:
+            Raspored delegiranja sudaca za nadolazeći vikend pruža pregled imenovanja sudaca za različite nogometne susrete, osiguravajući pravednu i kvalitetnu suđenju tijekom natjecateljskih događanja. <br></br>
+            
+            Trening sudaca:
+            Pozivaju se suci na trening koji će se održati 1. prosinca 2023. u Novalji, pružajući im priliku za poboljšanje fizičke kondicije, taktičkih vještina i interpretacije pravila nogometne igre. <br></br>
+            
+            Natječaj sudaca:
+            Otvoren je natječaj za mlade suce ili sutkinje koji žele postati dio nogometne suce. Prijave su otvorene do 15. siječnja 2024., pružajući mladim entuzijastima priliku za ulazak u svijet suđenja. <br></br>
+            
+            Pravila nogometne igre:
+            Pravila nogometne igre za sezonu 2022./2023. dostupna su u obliku PDF-a, pružajući sucima, igračima i ljubiteljima nogometa sve potrebne informacije o pravilima i interpretacijama u igri.</p>
+<hr></hr>
+        <div class="gallery">
+            <a href="https://www.thefa.com/-/media/cfa/cornwallfa/images/articles/2022/referee-meeting-march-2022.ashx?h=450&la=en&w=600" class="lightbox-trigger"><img
+                    src="https://www.thefa.com/-/media/cfa/cornwallfa/images/articles/2022/referee-meeting-march-2022.ashx?h=450&la=en&w=600"
+                    alt="Božićni seminar" title="Božićni seminar"></a>
+            <a href="https://img.everymarket.com/scfnhx1ucihw7tzyoe4n044567lb?width=650&height=650&format=jpg"
+                class="lightbox-trigger"><img
+                    src="https://img.everymarket.com/scfnhx1ucihw7tzyoe4n044567lb?width=650&height=650&format=jpg"
+                    alt="Raspored delegiranja" title="Raspored delegiranja"></a>
+            <a href="https://www.thefa.com/-/media/thefacom-new/images/get-involved/referee/20211117-female-referee-event-800.ashx?as=0&dmc=0&thn=0"
+                class="lightbox-trigger"><img
+                    src="https://www.thefa.com/-/media/thefacom-new/images/get-involved/referee/20211117-female-referee-event-800.ashx?as=0&dmc=0&thn=0"
+                    alt="Trening"title="Trening"></a>
+            <a href="https://zupanjac.net/wp-content/uploads/2022/11/received_676775310645395.jpeg"
+                class="lightbox-trigger"><img
+                    src="https://zupanjac.net/wp-content/uploads/2022/11/received_676775310645395.jpeg"
+                    alt="Natječaj za suca" title="Natječaj za suce"></a>
+            <a href="https://img.yumpu.com/67288819/1/500x708/pravila-nogometne-igre-2022-23.jpg?quality=80"
+                class="lightbox-trigger"><img
+                    src="https://img.yumpu.com/67288819/1/500x708/pravila-nogometne-igre-2022-23.jpg?quality=80"
+                    alt="Pravila nogometne igre" title="Pravila nogometne igre"></a>
+        </div>
+
+        <div class="lightbox" id="lightbox">
+            <img src="" alt="Lightbox">
+        </div>
+
+        <a href="#" class="lightbox-trigger" onclick="history.go(-1);">Natrag</a>
+    </main>
+    <footer>
+        <p>Copyright © 2023 Ante Biloš
+            <a href="https://github.com/abilos1" target="_blank">
+                <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="Ante Biloš">
+            </a>
+        </p>
+        <a>Društvene mreže:
+            <a href="https://www.facebook.com/profile.php?id=100002227831858" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/antebilos/?hl=hr" target="_blank">Instagram</a>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxTrigger = document.querySelectorAll('.lightbox-trigger');
+
+            lightboxTrigger.forEach(trigger => {
+                trigger.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    lightbox.style.display = 'flex';
+                    lightbox.querySelector('img').src = this.href;
+                });
+            });
+
+            lightbox.addEventListener('click', function (e) {
+                if (e.target === lightbox) {
+                    lightbox.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
