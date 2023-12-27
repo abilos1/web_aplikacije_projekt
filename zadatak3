@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="description" content="Football referee">
+            <meta name="keywords" content="football, referee, be a referee">
+            <meta name="author" content="Ante Biloš">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Football referee</title>
+        <style>
+            body {
+      margin: 0;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    header {
+      background-color: #1a47dc;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      background-color:rgb(39, 39, 151);
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s; 
+    }
+    nav a:hover {
+      color: #ffcc00; 
+          </style>
+        </head>
+    <body>
+        <header>
+            <h1>Be a referee</h1>
+          </header>
+          <nav>
+            <a href="index.html">Početna stranica</a>
+            <a href="novosti.html">Novosti</a>
+            <a href="postani.html">Postani sudac</a>
+            <a href="o_nama.html">O nama</a>
+            <a href="galerija.html">Galerija</a>
+          </nav>
+          <main>
+    <h2>Izazov i odgovornost</h2>
+    <p>Nogomet, kao globalni sport s milijunima zaljubljenika diljem svijeta, zahtijeva mnogo više od strastvenih igrača i navijača. Jedan od ključnih elemenata koji omogućuje ovu igru da cvjeta na terenu je prisutnost suca. Postati sudac u nogometu nije samo poziv, već i odgovornost koja zahtijeva predanost, pravdu, i hrabrost.</p>
+
+    <p>Sudačka karijera u nogometu ne počinje na velikom stadionu, već obično na lokalnim igralištima. Mladi entuzijastični pojedinci često započinju svoj put kao pomoćni suci u lokalnim ligama, stječući iskustvo i razumijevanje pravila igre. Put do postizanja statusa kvalificiranog suca obuhvaća različite razine certifikacija i kontinuirano usavršavanje.</p>
+
+    <p>Biti sudac u nogometu znači suočiti se s brojnim izazovima na terenu. Osiguravanje pravednosti, preciznost u odlukama, i održavanje reda ključne su komponente sudačke uloge. Suočavanje s pritiskom navijača, trenera i igrača zahtijeva emocionalnu inteligenciju i smirenost u odlučivanju, čime se održava integritet igre. Postati sudac u nogometu nije samo tehničko pitanje, već i razvoj karaktera i liderstva. Suci su često u situacijama gdje moraju brzo donositi odluke, suočavati se s kontroverzijama, i zadržavati mir. Ove vještine razvijaju se tijekom vremena kroz iskustvo i mentorstvo starijih i iskusnijih sudaca.</p>
+
+    <figure>
+      <img src="https://th-thumbnailer.cdn-si-edu.com/DDzVTvWaZNd0znM0K7HiIG6ay4I=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/FIFA-World-Cup-referee-training-631.jpg" alt="Sudac">
+      <figcaption>Trening sudaca</figcaption>
+    </figure>
+  </main>
+
+    </body>
+</html>
