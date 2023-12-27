@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="description" content="Football referee">
+            <meta name="keywords" content="football, referee, be a referee">
+            <meta name="author" content="Ante Biloš">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Football referee</title>
+        <style>
+            body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #1a47dc;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      background-color:rgb(39, 39, 151);
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s; 
+    }
+    nav a:hover {
+      color: #ffcc00; 
+          </style>
+        </head>
+    <body>
+        <header>
+            <h1>Be a referee</h1>
+          </header>
+          <nav>
+            <a href="index.html">Početna stranica</a>
+            <a href="novosti.html">Novosti</a>
+            <a href="postani.html">Postani sudac</a>
+            <a href="o_nama.html">O nama</a>
+            <a href="galerija.html">Galerija</a>
+          </nav>
+
+    </body>
+</html>
