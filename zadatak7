@@ -113,15 +113,7 @@
             background-color: #45a049;
         }
 
-        h2 {
-            font-family: 'Times New Roman', serif;
-            color: rgb(30, 92, 205);
-        }
-
-        h2#lokacija-naslov,
-        h2#kontakt-naslov {
-            color: white;
-        }
+    
     </style>
 </head>
 
@@ -136,8 +128,8 @@
         <a href="o_nama.html">O nama</a>
         <a href="galerija.html">Galerija</a>
     </nav>
+    <h2>Kontakt</h2>
     <main>
-        <h1>Kontakt</h1>
         <h2 id="lokacija-naslov">Gdje se nalazimo?</h2>
         <p>Zagrebačka Ul. 5, 10410, Velika Gorica</p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.3732862076254!2d16.048464615391073!3d45.706196579102264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765db5b3ee0e221%3A0xbed9f4b3df25f107!2sVeleu%C4%8Dili%C5%A1te%20Velika%20Gorica!5e0!3m2!1sen!2shr"
