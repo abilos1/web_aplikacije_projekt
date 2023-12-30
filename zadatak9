@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Football referee">
+    <meta name="keywords" content="football, referee, be a referee">
+    <meta name="author" content="Ante Biloš">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O nama</title>
+    <link rel="shortcut icon" href="zastava.jpg">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: rgb(42, 66, 111);
+            color: white;
+        }
+
+        header {
+            background-color: rgb(30, 92, 205);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+            font-family: 'Times New Roman', serif;
+        }
+
+        hr {
+            border: 1px solid #fff;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: rgb(30, 92, 205);
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer img {
+            width: 30px;
+            border-radius: 50%;
+        }
+
+        a {
+            color: #ffcc00;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Postani nogometni sudac</h1>
+    </header>
+    <nav>
+        <a href="index.html">Početna stranica</a>
+        <a href="novosti.html">Novosti</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="o_nama.html">O nama</a>
+        <a href="galerija.html">Galerija</a>
+    </nav>
+    <h2>O nama</h2>
+    <main>
+        <h2>Prihvati izazov</h2>
+        <p>Mi smo strastveni zaljubljenici u nogomet i vjerujemo u snagu fer i sportskog natjecanja. Naša misija je poticati razvoj nogometnih sudaca, pružajući im obrazovanje, podršku i resurse kako bi postali stručnjaci na terenu.</p>
+        <p>Nudimo sveobuhvatan program obuke za one koji žele zakoračiti u svijet suđenja. Bez obzira jeste li ljubitelj nogometa ili bivši igrač, kod nas imate priliku postati ključni dio igre i doprinijeti njezinoj pravilnosti i poštenju.</p>
+        <iframe
+            src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D244557161349765"
+            width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true">
+        </iframe>
+        <p>Naša zajednica nije samo učilište, već i mjesto gdje dijelimo entuzijazam, iskustva i podršku. Kroz edukaciju, pravila igre, terenske vještine i etičke smjernice, izgrađujemo suce koji su spremni za izazove modernog nogometa.
+            Postanite dio naše obitelji "Postani nogometni sudac" i zajedno gradimo budućnost fer igre na terenu!</p>
+            <p>Izvor: Facebook UEFA</p>
+        
+    </main>
+    <footer>
+        <p>Copyright © 2023 Ante Biloš
+            <a href="https://github.com/abilos1" target="_blank">
+                <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="Ante Biloš">
+            </a>
+        </p>
+        <a>Društvene mreže:
+            <a href="https://www.facebook.com/profile.php?id=100002227831858" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/antebilos/?hl=hr" target="_blank">Instagram</a>
+    </footer>
+</body>
+
+</html>
