@@ -38,6 +38,7 @@
             color: #fff;
             text-decoration: none;
             transition: color 0.3s;
+            
         }
 
         nav a:hover {
@@ -71,7 +72,12 @@
         footer img {
             width: 30px;
             border-radius: 50%; 
-}
+    
+        }
+
+        a{
+        color: #ffcc00;
+        }
 
     </style>
     </head>
@@ -83,15 +89,11 @@
         <nav>
             <a href="index.html">Početna stranica</a>
             <a href="novosti.html">Novosti</a>
-            <a href="postani.html">Postani sudac</a>
+            <a href="kontakt.html">Kontakt</a>
             <a href="o_nama.html">O nama</a>
             <a href="galerija.html">Galerija</a>
         </nav>
-</head>
-
-<body>
-    <header>
-        <h1>Novosti</h1>
+        <h2>Novosti</h2>
     </header>
     <main>
         <article>
